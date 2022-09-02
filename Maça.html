@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maçã</title>
+</head>
+<body>
+    <script>
+
+        let compra = parseFloat(prompt("Olá usuário digite a quantidade de maçãs desejadas: "));
+        let resultado1 = (compra * 3.50);
+        let resultado2 = (compra * 2.50);
+
+
+        if(compra <6){
+            document.write("A quantidade de maçã escolhida é:" +compra+ "<br>" + "O valor total de sua compra é: " + resultado1);
+        }else if (compra >=12){
+            document.write("A quantidade de maçã escolhida é:" +compra+ "<br>" + "O valor total de sua compra é: " + resultado2);
+        }
+
+
+    </script>
+</body>
+</html>
